@@ -1,0 +1,426 @@
+/* Fonts */
+
+@font-face {
+	font-family: "DINPro";
+	src: url("fonts/DINOffcPro.ttf");
+}
+
+@font-face {
+	font-family: "DINProBold";
+	src: url("fonts/DINOffcPro-Bold.ttf");
+	
+}
+
+@font-face {
+	font-family: "DINProLight";
+	src: url("fonts/DINOffcPro-Light.ttf");
+	
+}
+
+@font-face {
+	font-family: "DINProBlack";
+	src: url("fonts/DINOffcPro-Black.ttf");
+	
+}
+
+h2 {
+	font-size: 48px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "DINProBold";
+	color: #333333;
+}
+
+.card-text, .text-center, .p-center {
+	padding-top: 6px;
+    padding-bottom: 20px;
+}
+
+.card-title, .text-center, .hero-home {
+	margin-left: 1px;
+}
+
+.card-title, .hero-home {
+	font-size: 42px;
+}
+
+.btn, .fixed-width {
+	width: 400px;
+}
+
+.navbar {
+	border-radius: 0px;
+	margin-bottom: 0px;
+	background-color: #307fe2;
+	padding-bottom: 9px;
+
+}
+
+.logo-hero {
+	position: relative;
+	max-width: 300px;
+	max-height: 150px;
+	float: right;
+	padding-right: 50px;
+
+}
+
+
+
+.nav-logo {
+	 max-height: 22px;
+	 margin: -1px;
+}
+
+.nav-link {
+	font-family: "DINPro";
+	font-size: 20px;
+	color: #FFFFFF !important;
+	margin-right: 50px;
+
+}
+
+.nav-link:hover {
+	font-family: "DINPro";
+	font-size: 20px;
+	color: #FFD016 !important;
+	margin-right: 50px;
+
+}
+
+navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 11px;
+}
+
+nav-link-right {
+	float: right;
+	font-family: "DINProBold"
+	font-size: 18px;
+}
+
+.card-title, .hero-tile {
+	font-family: "DINProBold";
+	color: #333333;
+    font-size: 46px;
+    margin-bottom: 0.75rem;
+    margin-top: -32px;
+    margin-left: -20px;
+}
+
+.card-img-top, .cs-panel {
+	width: 228px;
+	height: 381px;
+	margin-top: 26px;
+}
+
+
+/*h2, h1, .title-white,  {
+	color: #FFFFFF !important;
+	font-family: "DINProBold";
+}*/
+
+.title-white {
+	color: #FFFFFF;
+}
+
+.jumbotron h1 {
+	color: #FFFFFF !important;
+	font-family: "DINProBold";
+}
+
+
+
+
+
+.card-text-white {
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: "DINPro";
+	font-weight: 100;
+}
+
+
+
+body {
+	background-color: #FFFFFF;
+}
+
+
+
+.jumbotron {
+    margin-bottom: 0px;
+    border-radius: 0px;
+    padding: 0 0 0 0;
+}
+
+.jumbotron-forrester {
+	background: url("images/forrester.png") no-repeat top center;  
+	background-size: cover;
+}
+
+.jumbotron-burberry {
+	background: url("images/burberry.png") no-repeat top center; 
+	background-size: cover;
+}
+
+.jumbotron-jlr {
+	background: url("images/jlr.png") no-repeat center center; 
+	background-size: cover;
+}
+
+.jumbotron-about {
+	background: url("images/kate.png") no-repeat right; 
+	background-size: cover;
+	height: 638px;
+}
+
+.jumbotron-leadership {
+	background-color: #FFD016;
+	height: 600px;
+}
+
+.jumbotron-strat-con {
+	background: url("images/strat_con.png") no-repeat right; 
+	background-size: cover;
+}
+
+.jumbotron-marketing-tech {
+	background: url("images/marketing_tech.png") no-repeat right; 
+	background-size: cover;
+}
+
+.jumbotron-customer-ex {
+	background: url("images/customer_exp.png") no-repeat right; 
+	background-size: cover; 
+}
+
+.jumbotron-data-sci {
+	background: url("images/data_sci.png") no-repeat right; 
+	background-size: cover; 
+}
+
+.jumbotron-whatwedo {
+	background-color: #307fe2;
+	height: 629px;
+}
+
+.jumbotron-work {
+	background: url("images/victor.png") no-repeat right; 
+	background-size: cover; 
+}
+
+.jumbotron-insights {
+	background: url("images/insights.png") no-repeat right; 
+	background-size: cover; 
+}
+
+
+
+.btn-space {
+	margin-left: 20px;
+}
+
+.jumbotron p {
+	font-family: "DINProLight";
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 26px;
+    margin-left: -20px;
+    margin-top: 26px;
+}
+
+.cs-hero {
+	margin-top: 31px;
+    margin-bottom: 52px
+}    
+
+.jumbotron-about-panel {
+	background-color: #307fe2;
+	height: 600px;
+}
+
+.jumbotron-padding {
+	padding-top: 60px;
+}
+
+.top-row-buffer {
+	margin-top: 66px;
+}
+
+
+.btn {
+	border-radius: 4px;
+	background-color: #307fe2;
+	border: none;
+}
+
+.btn-primary {
+	border-radius: 4px;
+	border: none;
+}
+
+.btn-primary-margin {
+    margin-right: 12px
+    border: none;;
+}
+
+.btn-lg {
+	border-radius: 4px;
+	margin-left: -21px;
+}
+
+.btn, .btn-primary, .home-card {
+	max-width: 290px;
+	min-width: 150px;
+	text-align: center;
+	font-family: "DINPro";
+}
+
+.btn-white {
+	background-color: #FFFFFF;
+	color: #307fe2;
+	font-family: "DINPro";
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 0rem; 
+    border-radius: 0rem; 
+}
+
+.card-block, .home-block {
+	margin: 50px;
+	border-color: #FFFFFF;
+	border-radius: 0px;
+
+}
+
+.hero-panel {
+	background-color: #FFFFFF;
+	max-width: 517px;
+    max-height: 663px;
+	border: 0;
+
+}
+
+.dark-panel {
+	background-color: transparent;
+}
+
+
+.card .left-align {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	right: 100px;
+	bottom: 100px;
+}
+
+.white-text {
+	color: #FFFFFF;
+}
+
+.white-text-light {
+	color: #FFFFFF;
+	font-family: "DINProLight";
+}
+
+.insight-info {
+	color: #FFFFFF;
+	font-family: "DINPro";
+	font-size: 24px;
+}
+
+
+
+a {
+	color: #FFFFFF;
+	padding-top: 1px;
+	font-family: "DINProLight";
+}
+
+
+.container, .home-cards {
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.card {
+	border: 0;
+}
+
+.site-footer {
+	background-color: #307fe2;
+	padding-top: 3px;
+    height: 100%;
+}
+
+
+.cx-icon {
+	position: relative;
+	margin: 0 0 0 0px;
+}
+
+.adzu-icon {
+	position: relative;
+	float: right;
+}
+
+.data-icon {
+	position: relative;
+	float: right;
+}
+
+.footer-head {
+	color: #FFFFFF;
+}
+
+.footer-container {
+	background-color: #307fe2;
+	margin-bottom: 0px;
+    border-radius: 0px;
+    padding: 0 0 0 0px;
+}
+
+.h3, .centre-text-hero {
+	color: #FFFFFF;
+}
+
+
+#contact-container {
+	padding-top: 43px;
+}
+
+.leadership-panel {
+	background-color: #FFD016;
+	
+	
+}
+
+.btn-primary-outline {
+	background: transparent;
+	border-color: #FFFFFF;
+	font-family: "DINProBold";
+	color: #FFFFFF;
+}
+
+
+.insights-preview {
+	 padding-bottom: 21px;
+}
+
+
+/*.insight-icon, .cx-icon, .data-icon, .adzu-icon {
+	margin-left: 1px;
+}*/
+
+.nav-right-sml {
+	font-size: 20px;
+}
+
+
+
+
+
