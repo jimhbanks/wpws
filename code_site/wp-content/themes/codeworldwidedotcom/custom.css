@@ -27,9 +27,14 @@ h2 {
 	font-size: 48px;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
 	font-family: "DINProBold";
 	color: #333333;
+}
+
+h6 {
+	
+	font-size: 16px;
 }
 
 .card-text, .text-center, .p-center {
